@@ -1,0 +1,66 @@
+.elon{
+    width: 500px;
+    border-radius: 50px;
+    padding: 55px;
+    height: 10px;
+    
+}
+.elo{
+text-align: center;
+font-weight: 50px;
+
+
+
+
+
+}
+.elo ul li{
+    border: 2px solid gray;
+    background: purple;
+    border-radius: 100px;
+    cursor: pointer;
+    position: relative;
+    text-decoration: line-through red 2px;
+}
+
+.elo ul li a {
+    text-decoration: none;
+ color: white;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.elo ul li ::after{
+    height: 3px;
+    width: 0 ;
+    background: red;
+    position: absolute;
+    left: 0 ;
+    bottom: -10px;
+    transition: 0.5sec;
+
+
+} 
+.elo ul li :hover::after{
+    width: 100%;
+}
+  
+h1{
+    
+    font-weight: bold;
+    color: purple;
+    text-align: center;
+    text-decoration: overline red 3px;
+
+}
+
+ body{
+    background-image: url(rocket.jpg)
+ }
+ p{
+    text-size-adjust: 100px;
+    font-weight: 10px;
+    color: white;
+    font-size: 50px;
+ }
+ 
